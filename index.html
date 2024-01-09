@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>HTML</title>
+  </head>
+  <body>
+    <header id="top">
+      <h1>HTML - <i>HiperText Markup Language</i></h1>
+    </header>
+    <hr />
+    <h2>Introdução ao HTML</h2>
+    <ul>
+      <li>O que é o HTML?</li>
+      <li>Estrutura básica de um documento HTML</li>
+      <li>O que são elementos HTML?</li>
+      <li>O que são atributos HTML?</li>
+      <li>Pricipais tipo de tags utilizadas</li>
+    </ul>
+    <hr />
+
+    <h2 id="topicoUm">O que é o HTML?</h2>
+    <p>
+      O HTML (HiperText Markup Language) é uma linguagem de marcação, muito
+      utilizada para estruturar páginas web. Outras tecnologias além do HTML são
+      utilizadas para descrever a aparência e apresentação como o CSS (Cascading
+      Style Sheets) ou para adicionar funcionalidades e comportamentos como o
+      JavaScript.
+    </p>
+    <p>
+      O "Hipertexto" refere-se a links que conectam as páginas web entre si,
+      dentro de um único site ou entre sites. Os links são um aspecto
+      fundamental da web. Ao enviar conteúdo para a internet e vinculá-lo a
+      páginas criadas por outras pessoas, você se torna um participante ativo da
+      World Wide Web.
+    </p>
+    <p>
+      HTML usa "marcação" para anotar textos, imagens e outros conteúdos para
+      exibição em um navegador web. A marcação HTML utiliza elementos e tags
+      para demarcar textos.
+    </p>
+    <p>
+      Um elemento HTML é diferenciado de outros textos no documentos por "tags",
+      que consistem no nome do elemento cercado por <strong> "<" e ">"</strong>.
+      Uma tag deve ter ínicio e fim, assim demarcando o espaço utilizado para
+      determinado texto.
+    </p>
+    <hr />
+    <h2 id="topicoDois">Estrutura básica de um documento HTML</h2>
+    <p>
+      Para o navegador reconhecer que o documento é um arquivo HTML devemos
+      nomea-lo da maneira correta, então, para criarmos o arquivo devemos
+      utlizar a extensão ".html" no fim do nome do nosso arquivo. Um exemplo
+      comum é "index.html" para nomear o arquivo principal.
+    </p>
+    <p>
+      O html básico deve conter os elementos como o "html" que é para demonstrar
+      o tipo do arquivo, o elemento "head" que serve para adicionarmos
+      fucionalidades a nossa página e o elemento "body" é o corpo do nosso
+      documento, onde o conteúdo será exibido na pagina.
+    </p>
+    <p>Segue exemplo como deve ser uma estrutura básica de um arquivo.</p>
+    <img
+      src="./imagens/estrutura-basica.PNG"
+      alt="Estrutura básica de um arquivo HTML."
+    />
+    <hr />
+
+    <h2>O que são elementos HTML?</h2>
+    <p>
+      Arquivos HTML são constituídos de <strong>elementos</strong>, ou seja,
+      <strong
+        >componentes que informam a um navegador web como estruturar e
+        interpretar um documento HTML.</strong
+      >
+      Um elemento em HTML é formado por uma tag de início <.tag inicio> e uma
+      tag de fechamento, <.tag fechamento> e um conteudos inserido entre elas,
+      lembrando que exixtem tagas que não são fechadas como <.img/>.
+    </p>
+
+    <p>
+      <strong
+        >Elementos HTML são usados para expressar partes do documento, como
+        cabeçalhos, parágrafos e rodapés, e para incorporar conteúdos como
+        hyperlinks, texto e imagens.</strong
+      >
+      Um arquivo HTML escrito com elementos de forma semântica torna o HTML mais
+      compreensível, definindo melhor as diferentes seções e o layout das
+      páginas Web.
+    </p>
+
+    <p>
+      <strong
+        >Vejamos abaixo como se estrutura os elementos das tags HTML:</strong
+      >
+    </p>
+    <img
+      src="./imagens/exemplo-tag.png"
+      alt="exemplo de tag html"
+      width="400"
+    />
+    <p>
+      Existem dois tipos de elementos principais, os em nível de bloco e os
+      elementos em linha. Vejamos abaixo a diferença entre eles:
+    </p>
+    <ul>
+      <li>
+        <p>
+          Os <strong>elementos em nível de bloco</strong> sempre começam com uma
+          nova linha, ocupam toda a largura de uma página Web, da esquerda para
+          a direita e estruturam a parte principal da página dividindo-a em
+          blocos coerentes e estruturados.
+        </p>
+      </li>
+    </ul>
+    <img
+      src="./imagens/elementos-bloco.png"
+      alt="Exemplo de elementos em bloco"
+    />
+    <ul>
+      <li>
+        <p>
+          Os <strong>elementos em linha</strong> não começam com uma nova linha
+          e assumem a largura conforme o requisito para o espaço é necessário.
+          Aparecem na mesma linha que os outros elementos e diferenciam a parte
+          de um determinado texto, lhe conferindo uma função particular.
+        </p>
+      </li>
+    </ul>
+    <img
+      src="./imagens/elemento-linha.PNG"
+      alt="Exemplo de elemento em linha."
+    />
+    <hr />
+    <h2>O que são atributos HTML?</h2>
+    <p>
+      <strong
+        >Atributos HTML são palavras especiais que fornecem informações
+        adicionais sobre os elementos e definem caracteristicas ou propriedades
+        adicionais destes elementos como largura ou altura de uma
+        imagem.</strong
+      >
+      Os atributos são especificados dentro da tag de início com um nome e um
+      valor neste formato: <.tag atributo= "#">.
+    </p>
+    <p>
+      Abaixo vemos o elemento <.img> que necessita do atributo obrigatório src
+      para informarmos o caminho da imagem que será exibido no documento.
+    </p>
+    <img
+      src="./imagens/elemento-img.PNG"
+      alt="Exemplo de atributo na tag img."
+    />
+    <hr />
+    <h2>Pricipais tipo de tags utilizadas</h2>
+    <p>Existem vários tipos de tags HTML e cada uma tem um fim especifico.</p>
+    <p>Segue abaixo os tipos de tags mais utilizadas:</p>
+    <ul>
+      <li>Tags estruturais: mudam o posicionamento de elementos na web;</li>
+      <li>
+        Tags de cabeçalho: estão relacionadas com o cabeçalho e alguns elementos
+        básicos;
+      </li>
+      <li>
+        Tags de links: são utilizadas para gerenciar qualquer tipo de link
+        existente na página;
+      </li>
+      <li>Tags de lista: permite criar vários tipos de lista;</li>
+      <li>
+        Tags de formatação: adiciona formatação especial a qualque texto
+        exibidos na página;
+      </li>
+      <li>
+        Tags de manipulação de elementos: tornam mais preciso o posicionamento
+        de conteúdos no site;
+      </li>
+      <li>
+        Tags de conteúdo multimídia: utilizadas para inserir elementos como
+        imagens, vídeos e músicas nas páginas;
+      </li>
+      Tags de frames: para criar frames (que funciona como uma divisão interna
+      da página) com conteúdos internos;
+      <li>
+        Tags de formulários: utilizadas para criar formulários para os usuários;
+      </li>
+      <li>
+        Tags de tabelas: adotadas para criar e modificar tabelas facilmente.
+      </li>
+    </ul>
+    <hr />
+    <footer>
+      <a href="#top">Voltar ao topo!</a>
+    </footer>
+  </body>
+</html>
